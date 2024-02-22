@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>HTML</h1>
+    <hr>
+
+    <section>
+        <div>
+            <h3>Table of contents</h3>
+            <ol>
+                <li>What is HTML</li>
+                <li>Tags
+                    <ol type="A">
+                        <li>HTML Headings</li>
+                        <li>HTML Paragraphs</li>
+                        <li>HTML Links</li>
+                        <li>HTML Lists
+                            <ol type="i">
+                                <li>Unordered Lists</li>
+                                <li>Ordered Lists</li>
+                            </ol>
+                        </li>
+                        <li>HTML Tables</li>
+                    </ol>
+                </li>
+                <li>Differences between HTML4 and HTML5</li>
+                <li>Useful Links</li>
+            </ol>
+            <hr>
+        </div>
+        <div>
+            <p>1. HTML is a markup language for describing web documents (web pages).</p>
+            <ul>
+                <li>HTML stands for Hyper Text Markup Language</li>
+                <li>A markup language is a set of markup tags</li>
+                <li>HTML documents are described by HTML tags</li>
+                <li>Each HTML tag describes different document content</li>
+            </ul>
+            <hr>
+        </div>
+        <div>
+            <p>2. HTML tags are keywords (tag names) surrounded by angle brackets: <strong>tagname</strong> content
+                <strong>tagname</strong>
+            </p>
+            <ul>
+                <li>HTML tags normally come in pairs like</li>
+                <li>The first tag in a pair is the start tag, the second tag is the end tag</li>
+                <li>The end tag is written like the start tag, but with a slash before the tag name</li>
+            </ul>
+        </div>
+        <br>
+    </section>
+    <section>
+        <div>
+            <h3>A. HTML Headings</h3>
+            <p>Use HTML headings for headings only. Don't use headings to make text BIG or bold.
+                Search engines use your headings to index the structure and content of your web pages.
+                Users skim your pages by its headings. It is important to use headings to show the document structure.
+                h1 headings should be main headings, followed by h2 headings, then the less important h3, and so on</p>
+            <p>Example of Headings</p>
+            <h1>This is h1 Heading</h1>
+            <h2>This is h2 Heading</h2>
+            <h3>This is h2 Heading</h3>
+            <h4>This is h4 Heading</h4>
+            <h5>This is h5 Heading</h5>
+            <h6>This is h6 Heading</h6>
+        </div>
+        <div>
+            <h3>B. HTML Paragraphs</h3>
+            <p>With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.
+                The browser will remove extra spaces and extra lines when the page is displayed.
+                Any number of spaces, and any number of new lines, count as only one space.
+                Use &lt;br&gt; if you want a line break (a new line) without starting a new paragraph</p>
+        </div>
+        <div>
+            <h3>C. HTML Links</h3>
+            <p>In HTML, links are defined with the &lt;a&gt; tag.
+                The href attribute specifies the destination address.
+                The link text is the visible part.
+                Clicking on the link text, will send you to the specified address.</p>
+            <ul>
+                <li>The mouse arrow will turn into a little hand</li>
+                <li>The color of the link element will change</li>
+            </ul>
+            <p>When you move the mouse over a link, two things will normally happen:</p>
+            <ul>
+                <li>An unvisited link is underlined and blue</li>
+                <li>A visited link is underlined and purple</li>
+                <li>An active link is underlined and red</li>
+            </ul>
+            <p>You can change the default colors, by using styles. See next link as exemple:</p>
+            <a href="">HTML Links</a>
+        </div>
+        <div>
+            <h3>D. HTML Lists</h3>
+            <p>
+                <b>
+                    <em>Unordered</em> List
+                </b>
+            </p>
+            <p>An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.
+                The list items will be marked with bullets (small black circles):</p>
+            <ul>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+            <p>List can also be nested (lists inside lists):</p>
+            <ul>
+                <li>list</li>
+                <li>list
+                    <ul>
+                        <li>nested list</li>
+                        <li>nested list
+                            <ul>
+                                <li>item</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>list
+                    <ul>
+                        <li>nested list</li>
+                        <li>nested list
+                            <ul>
+                                <li>item</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>list</li>
+            </ul>
+            <p>
+                <strong>
+                    <em>Ordered </em> List
+                </strong>
+            </p>
+            <p>An ordered list starts with the &lt;ol&target; tag. Each list item starts with the &lt;li&target; tag.
+                The list items will be marked by default with numbers:</p>
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li>
+            </ol>
+        </div>
+        <div>
+            <h3>E. HTML Tables</h3>
+            <p>Tables are defined with the &lt;table&target; tag.</p>
+            <p>Tables are divided into table rows with the &lt;tr&target; tag.</p>
+            <p>A table row can also be divided into table headings with the &lt;th&target; tag.</p>
+            <p>Table rows are divided into table data with the &lt;td&target; tag.</p>
+            <p>Table data can contain all sorts of HTML elements like text, images, lists, other tables, etc.</p>
+            <br>
+            <p>Tables can contain:</p>
+            <table>
+                <tr>
+                    <th>Lists</th>
+                    <th>Images</th>
+                    <th>Links</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Table Item</li>
+                            <li>Table Item</li>
+                            <li>Table Item</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <img src="./image/867-200x200.jpg" alt="bu yerda rasim bo'lishi kerak edi">
+                    </td>
+                    <td>
+                        <a href="">Tabel link</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <hr>
+        </div>
+    </section>
+    <section>
+        <div>
+            <p>3. Differences between HTML4 and HTML5</p>
+            <table>
+                <tr>
+                    <td>HTML4</td>
+                    <td>HTML5</td>
+                </tr>
+                <tr>
+                    <td>Elements like nav and header were not present</td>
+                    <td>It brought new elements for web structure like nav and header</td>
+                </tr>
+                <tr>
+                    <td>The lack of parsing rules made it difficult to handle error</td>
+                    <td>Strictly parsing rules were introduced in order to handle error</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>It inbuilt multimedia elements such as:</td>
+                </tr>
+                <tr>
+                    <td>Multimedia was not supported without third party</td>
+                    <td>
+                        <ul>
+                            <li>Audio</li>
+                            <li>Video</li>
+                            <li>Canvas</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+            <p>4. Useful Links</p>
+            <ul>
+                <li><a href="">HTML on Wikipedia</a></li>
+                <li><a href="">HTML Tutorial</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>
